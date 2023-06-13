@@ -1,0 +1,17 @@
+
+
+.listcontainer{
+    max-width: 1100px;
+margin: 0 auto;
+padding: 40px 0;
+}
+
+.listcontainer h2{
+color: #0000ff;
+font-weight: 700;
+}
+
+.listcontainer p{
+color: #7373b8;
+}
+
