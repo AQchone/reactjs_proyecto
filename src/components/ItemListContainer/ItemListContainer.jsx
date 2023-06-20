@@ -1,60 +1,8 @@
-import { compile } from "sass";
 import "./ItemListContainer.css";
-import { Component, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import BaseComponent from "bootstrap/js/dist/base-component";
+import { PedirDatos } from "../../helpers/pedirdatos";
 
-const MOCK_DATA = [
-  {
-    id: 1,
-    nombre: "producto 1",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-  {
-    id: 2,
-    nombre: "producto 2",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-  {
-    id: 3,
-    nombre: "producto 3",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-  {
-    id: 4,
-    nombre: "producto 4",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-  {
-    id: 5,
-    nombre: "producto 5",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-  {
-    id: 6,
-    nombre: "producto 6",
-    descripcion: "fsdamflkasndisdojfioas",
-    precio: 1500,
-    img: "https://dummyimage.com/200x200/000/fff",
-  },
-];
-
-const PedirDatos = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(MOCK_DATA);
-    }, 2000);
-  });
-};
 
 const ItemListContainer = () => {
   const [Productos, setProductos] = useState([]);
@@ -71,12 +19,22 @@ const ItemListContainer = () => {
   }, []);
 
   return (
-    <div className="listcontainer">
+    <div className="container my-5">
       <h2>Item List Container</h2>
       <hr />
-      {Productos.length === 0
-        ? "no hay productos todavia"
-        : "se cargaron los productos"}
+      <div className="row">
+      {
+          Productos.map ((prod) => (
+            <div key={prod.id} className="col-3 m-2">
+              <h4>{prod.nombre}</h4>
+              <img src={prod.img} alt={prod.nombre} />
+              <p>{prod.descripcion}</p>
+              <p>precio: ${prod.precio}</p>
+            </div>
+          ))
+          
+        }
+        </div>
     </div>
   );
 };
