@@ -1,27 +1,15 @@
 import "./ItemListContainer.css";
-import { useEffect, useState } from "react";
-import BaseComponent from "bootstrap/js/dist/base-component";
-import { PedirDatos } from "../../helpers/pedirdatos";
 import ItemList from "../itemlist/ItemList";
-
+import { useProductos } from '../../components/hooks/useProductos'
 
 const ItemListContainer = () => {
-  const [Productos, setProductos] = useState([]);
-  console.log(Productos);
+  
+const {productos} = useProductos()
 
-  useEffect(() => {
-    PedirDatos()
-      .then((res) => {
-        setProductos(res);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
 
   return (
     <div className="container my-5">
-      <ItemList items={Productos}/>
+      <ItemList items={productos}/>
     </div>
   );
 };
