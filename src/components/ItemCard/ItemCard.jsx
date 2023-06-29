@@ -5,6 +5,7 @@ const ItemCard = ({nombre,img,precio,descripcion,id}) => {
             <img src={img} alt={nombre} />
             <p>{descripcion}</p>
             <p>precio: ${precio}</p>
+            <button className="btn btn-primary">Agregar al carrito</button>
         </div>
   )
 }

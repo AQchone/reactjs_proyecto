@@ -4,12 +4,17 @@ import { useProductos } from '../../components/hooks/useProductos'
 
 const ItemListContainer = () => {
   
-const {productos} = useProductos()
+const {productos, loading} = useProductos()
 
+console.log(loading, productos)
 
   return (
     <div className="container my-5">
-      <ItemList items={productos}/>
+      {
+        loading
+        ? <h2>Cargando...</h2>
+        : <ItemList items={productos}/>
+      }
     </div>
   );
 };
