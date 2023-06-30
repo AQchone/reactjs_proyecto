@@ -1,42 +1,56 @@
 [
     {
       "id": 1,
-      "nombre": "producto 1",
+      "nombre": "Resident Evil",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"
     },
     {
       "id": 2,
-      "nombre": "producto 2",
+      "nombre": "Mortal Kombat",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"
     },
     {
       "id": 3,
-      "nombre": "producto 3",
+      "nombre": "Street Fighter",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"
     },
     {
       "id": 4,
-      "nombre": "producto 4",
+      "nombre": "Call Of Duty",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"
     },
     {
       "id": 5,
-      "nombre": "producto 5",
+      "nombre": "Mario Bros",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"
     },
     {
       "id": 6,
-      "nombre": "producto 6",
+      "nombre": "Zelda",
+      "descripcion": "fsdamflkasndisdojfioas",
+      "precio": 1500,
+      "img": "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+      "id": 6,
+      "nombre": "Doom",
+      "descripcion": "fsdamflkasndisdojfioas",
+      "precio": 1500,
+      "img": "https://dummyimage.com/200x200/000/fff"
+    },
+    {
+      "id": 6,
+      "nombre": "Final Fantasy",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
       "img": "https://dummyimage.com/200x200/000/fff"

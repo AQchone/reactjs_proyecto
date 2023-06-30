@@ -1,5 +1,5 @@
 import "./header.scss";
-import logo from "../../assets/react.svg";
+import logo from "../../assets/mdej.svg";
 
 const Header = () => {
   return (
@@ -10,13 +10,13 @@ const Header = () => {
 
           <nav className="header_nav">
             <a href="#" className="header_link1">
-              enlace 1
+              Juegos Playstation
             </a>
             <a href="#" className="header_link2">
-              enlace 2
+              Juegos Xbox
             </a>
             <a href="#" className="header_link3">
-              enlace 3
+              Juegos Nintendo
             </a>
           </nav>
         </div>
