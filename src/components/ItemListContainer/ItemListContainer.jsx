@@ -2,6 +2,7 @@ import "./ItemListContainer.css";
 import ItemList from "../itemlist/ItemList";
 import { useEffect, useState } from 'react';
 import { PedirDatos } from "../../helpers/pedirdatos";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
   
@@ -9,15 +10,23 @@ const ItemListContainer = () => {
 
   const [loading, setLoading] = useState(true)
 
-
+const { categoryId } = useParams()
+console.log(categoryId)
 
   useEffect(() => {
     setLoading(true)
+
     PedirDatos()
-    .then((res) => setProductos(res))
+    .then((res) => {
+      if (!categoryId){
+        setProductos(res)
+      }else{
+        setProductos(res.filter((item)=> item.category === categoryId))
+      }
+      })
     .catch((err) => console.log(err))
     .finally(()=>setLoading(false))
-  }, [])
+  }, [categoryId])
 
   return (
     <div className="container my-5">

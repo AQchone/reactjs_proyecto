@@ -11,21 +11,14 @@ function App() {
     <BrowserRouter>
       <Header />
 
-<Routes>
-
-
-</Routes>
-
 
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
-        <Route path="/Productos/PARAM" element={<ItemListContainer />} />
+        <Route path="/Productos/:categoryId" element={<ItemListContainer />} />
         <Route path="/Nosotros" element={<Nosotros/>} />
         <Route path="/Contacto" element={<Contacto/>} />
         <Route path="*" element={< Navigate to={"/"} />} />
         
-        
-
 {/* ruta de 404 con un easter egg pero que no funciona como pensaba (tengo que arreglarlo) */}
         {/* <Route path="*" element={<Error404/> }/> */}
       </Routes>

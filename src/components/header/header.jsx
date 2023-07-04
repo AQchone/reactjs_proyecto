@@ -12,7 +12,9 @@ const Header = () => {
           <nav className="header_nav">
             <Link to="/" className="header_link1">inicio</Link>
             <Link to="/Contacto" className="header_link2">Contacto</Link>
-            <Link to="/Nosotros" className="header_link3">Nosotros</Link>
+            <Link to="/productos/PlayStation5" className="header_link3">PlayStation 5</Link>
+            <Link to="/productos/NintendoSwitch" className="header_link3">Nintendo Switch</Link>
+            <Link to="/productos/XboxSeriesX" className="header_link3">Xbox Series X</Link>
           </nav>
         </div>
       </header>

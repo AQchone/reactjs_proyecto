@@ -4,104 +4,119 @@
       "nombre": "Resident Evil 4 Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/sXcrHrDq/Residentevil.jpg"
+      "img": "https://i.postimg.cc/sXcrHrDq/Residentevil.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 2,
       "nombre": "Mortal Kombat 1 Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/g2ZPFR2v/mk1.jpg"
+      "img": "https://i.postimg.cc/g2ZPFR2v/mk1.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 3,
       "nombre": "Street Fighter 6 Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/QMZZXtFv/streetfighter.jpg"
+      "img": "https://i.postimg.cc/QMZZXtFv/streetfighter.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 4,
       "nombre": "Call Of Duty MW2 Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/ydBKTdB0/Callofduty.jpg"
+      "img": "https://i.postimg.cc/ydBKTdB0/Callofduty.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 5,
       "nombre": "Final Fantasy 7 Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/brVj89nR/FF7.jpg"
+      "img": "https://i.postimg.cc/brVj89nR/FF7.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 6,
       "nombre": "Doom Play Station 5",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/sxgRtNMX/doom.jpg"
+      "img": "https://i.postimg.cc/sxgRtNMX/doom.jpg",
+      "category": "PlayStation5"
     },
     {
       "id": 7,
       "nombre": "Mario Bros Nintendo Switch",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/TYh60B8N/mario-bros.jpg"
+      "img": "https://i.postimg.cc/TYh60B8N/mario-bros.jpg",
+      "category": "NintendoSwitch"
     },
     {
       "id": 8,
       "nombre": "Zelda Nintendo Switch",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/WbKPHSTN/Tlz-tok.jpg"
+      "img": "https://i.postimg.cc/WbKPHSTN/Tlz-tok.jpg",
+      "category": "NintendoSwitch"
     },
     {
       "id": 9,
       "nombre": "Kirby Nintendo Switch",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/G3XRkdfs/kirby.jpg"
+      "img": "https://i.postimg.cc/G3XRkdfs/kirby.jpg",
+      "category": "NintendoSwitch"
     },
     {
       "id": 10,
       "nombre": "Resident Evil 4 Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/sXcrHrDq/Residentevil.jpg"
+      "img": "https://i.postimg.cc/sXcrHrDq/Residentevil.jpg",
+      "category": "XboxSeriesX"
     },
     {
       "id": 11,
       "nombre": "Mortal Kombat 1 Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/g2ZPFR2v/mk1.jpg"
+      "img": "https://i.postimg.cc/g2ZPFR2v/mk1.jpg",
+      "category": "XboxSeriesX"
     },
     {
       "id": 12,
       "nombre": "Street Fighter 6 Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/QMZZXtFv/streetfighter.jpg"
+      "img": "https://i.postimg.cc/QMZZXtFv/streetfighter.jpg",
+      "category": "XboxSeriesX"
     },
     {
       "id": 13,
       "nombre": "Call Of Duty MW2 Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/ydBKTdB0/Callofduty.jpg"
+      "img": "https://i.postimg.cc/ydBKTdB0/Callofduty.jpg",
+      "category": "XboxSeriesX"
     },
     {
       "id": 14,
       "nombre": "Final Fantasy 7 Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/brVj89nR/FF7.jpg"
+      "img": "https://i.postimg.cc/brVj89nR/FF7.jpg",
+      "category": "XboxSeriesX"
     },
     {
       "id": 15,
       "nombre": "Doom Xbox Series X",
       "descripcion": "fsdamflkasndisdojfioas",
       "precio": 1500,
-      "img": "https://i.postimg.cc/sxgRtNMX/doom.jpg"
+      "img": "https://i.postimg.cc/sxgRtNMX/doom.jpg",
+      "category": "XboxSeriesX"
     }
   ]
