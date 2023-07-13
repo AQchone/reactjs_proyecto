@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Nosotros from "./components/Nosotros/Nosotros";
 import Contacto from "./components/Contacto/Contacto";
 import Error404 from "./components/Error/error404";
+import ItemDetailContainer from "./components/itemDetailContainer/itemDetailContainer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/Productos/:categoryId" element={<ItemListContainer />} />
+        <Route path="/detail/:itemId" element={<ItemDetailContainer />} />
         <Route path="/Nosotros" element={<Nosotros/>} />
         <Route path="/Contacto" element={<Contacto/>} />
         <Route path="*" element={< Navigate to={"/"} />} />
@@ -23,7 +25,6 @@ function App() {
         {/* <Route path="*" element={<Error404/> }/> */}
       </Routes>
     </BrowserRouter>
-
   );
 }
 
