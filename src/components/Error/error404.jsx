@@ -1,5 +1,6 @@
 import React from 'react';
 import Gam from '../easter/gam';
+
 const error404 = () => {
 
     return (
@@ -12,3 +13,4 @@ const error404 = () => {
 }
 
 export default error404
+

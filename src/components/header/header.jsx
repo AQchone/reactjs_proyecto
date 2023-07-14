@@ -1,6 +1,7 @@
 import "./header.scss";
 import logo from "../../assets/mdej.svg";
 import { Link } from "react-router-dom";
+import Buscador from "../SearchBar/Buscador";
 
 const Header = () => {
   return (
@@ -17,6 +18,7 @@ const Header = () => {
             <Link to="/productos/XboxSeriesX" className="header_link3">Xbox Series X</Link>
           </nav>
         </div>
+        <Buscador/>
       </header>
     </div>
   );

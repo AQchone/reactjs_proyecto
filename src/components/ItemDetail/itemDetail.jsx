@@ -1,8 +1,12 @@
 import { useState } from "react";
 import ItemCount from "../itemcounter/itemCount";
+import {Link , useNavigate} from "react-router-dom";
 
 const ItemDetail = ({id,nombre,precio,category,descripcion,img,stock}) => {
     const [cantidad,setCantidad] = useState(1)
+
+    const navigate = useNavigate ()
+
 
 const handleAgregar = () => {
     const item = {
@@ -17,6 +21,10 @@ const handleAgregar = () => {
         cantidad
     }
 console.log(item)
+}
+
+const handleVolver = () => {
+    navigate(-1)
 }
 
     return (
@@ -36,6 +44,10 @@ console.log(item)
         handleAgregar={handleAgregar}
         />
 
+
+<hr />
+<button onClick={handleVolver} className="btn btn-primary">volver</button>
+
         </div>
     );
 
@@ -43,3 +55,4 @@ console.log(item)
 }
 
 export default ItemDetail
+
