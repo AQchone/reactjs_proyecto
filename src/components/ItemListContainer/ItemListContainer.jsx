@@ -23,9 +23,9 @@ const { categoryId } = useParams()
       }else{
         setProductos(res.filter((item)=> item.category === categoryId))
       }
-      })
+      }) 
     .catch((err) => console.log(err))
-    .finally(()=>setLoading(false))
+    .finally(()=>setLoading(false)) 
   }, [categoryId])
 
   return (
